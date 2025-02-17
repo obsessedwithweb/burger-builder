@@ -1,0 +1,37 @@
+.Button {
+    background: linear-gradient(182deg, #a24814, #ef8b49);
+    border: none;
+    color: #944317;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* .Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+} */
+
+.Success,
+.Danger {
+    transition: 0.2s ease-in;
+}
+
+.Success:hover {
+    background: linear-gradient(7deg, #22ff04, #f6fc0e);
+    color: #5C9210;
+    box-shadow: 0 0 20px #a0d799;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.Danger:hover {
+    color: #791616;
+    background: linear-gradient(351deg, #ff910057, #ef1e1ef7);
+    box-shadow: 0 0 20px #ff0042cf;
+}

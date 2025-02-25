@@ -1,9 +1,14 @@
-import React, { Fragment, memo, useEffect } from "react";
+import React, { Fragment } from "react";
 import Backdrop from "../Backdrop/Backdrop";
 import cssClass from "./Modal.module.css";
 
-const modal = memo((props) => {
-  console.log("[Modal] is rendering");
+const modal = (props) => {
+
+  // useEffect(() => {
+  //   if (!props.show || !props.children) {
+  //     document.body.style.overflow = "hidden";
+  //   }
+  // }, [props.show, props.children]);
 
   return (
     <Fragment>
@@ -20,6 +25,6 @@ const modal = memo((props) => {
       />
     </Fragment>
   );
-});
+};
 
 export default modal;

@@ -32,7 +32,8 @@ const orderSummary = (props) => {
       </Button>
       <Button
         btnType="Success"
-        clicked={props.checkout}>
+        clicked={props.checkout}
+        >
         Checkout
       </Button>
     </Fragment>
